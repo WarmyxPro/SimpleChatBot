@@ -50,7 +50,7 @@ def run_assistant():
             answer: str = get_answer_for_question(best_match, knowledge_base)
             print(f"Assistant: {answer}")
         else:
-            print("Bot: I don\'t know the answer. Can you teach me&")
+            print("Bot: I don\'t know the answer. Can you teach me?")
             new_answer: str = input("Type the answer or \"skip\" to skip: ")
 
             if new_answer.lower() != "skip":
